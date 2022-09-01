@@ -1,0 +1,103 @@
+/* Смотри сколько снизу свободного места! Оно идеально подойдёт, чтобы писать твои стили! */
+body{
+    background-color: #F6F6F6;
+    text-align: center;
+}
+.content{
+    text-align: center;
+    font-family: 'Arial';
+    width: 100%;
+}
+.name{
+    font-weight: 900;
+    font-size: 48px;
+}
+img{
+    height: 214px;
+    border-radius: 12px 12px 0 0;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 380px;
+    height: 482px;
+    margin: 10px 10px 60px 10px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0.2px 10px 10px rgba(0,0,0,0.2);
+    position: relative;
+}
+.cardtext{
+    padding: 24px;
+    text-align: left;
+}
+.card h1{
+    color: #2F2F2F;
+    font-weight: 900;
+    font-size: 24px;
+}
+.card h2{
+    font-weight: 400;
+    font-size: 16px;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 18px;
+    height: 48px;
+    width: 332px;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 30px;
+}
+.new{
+    position: absolute;
+    background: #FDCFF3;
+    border-radius: 8px;
+    height: 24px;
+    width: 110px;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0 0 16px;
+}
+.last{
+    position: absolute;
+    background: #FFCF56;
+    border-radius: 8px;
+    height: 24px;
+    width: 110px;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0 0 144px;
+}
+.card1 button, .card2 button{
+    box-sizing: border-box;
+    border: 2px solid #42940F;
+    height: 48px;
+    width: 332px;
+    background-color: #FFFFFF;
+    color: #42940F;
+    cursor:pointer;
+}
+.card1 button:hover, .card2 button:hover{
+    background: #42940F;
+    color: #FFFFFF;
+}
+.card1 button:active, .card2 button:active{
+    background: #1F5200;
+    color: #FFFFFF;
+}
+.card3 button{
+    background: #4E4E4E;
+    border: 1px solid #4E4E4E;
+    color: #FFFFFF;
+}
